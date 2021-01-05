@@ -1,4 +1,4 @@
 # Week 2 Exercises: Backend Development & Networking
 
-Day 5 AM & PM: fb-mini
-Day 6 AM & PM: objection-exercises
+Day 6 AM & PM: fb-mini
+Day 7 AM & PM: objection-exercises
