@@ -1,4 +1,4 @@
-# Day 6 AM: Basic Objection Models & Queries
+# Day 7 AM: Basic Objection Models & Queries
 
 This morning we'll get started using [Objection.js](https://vincit.github.io/objection.js/). You can create a new database with ElephantSQL, or use the same database credentials as yesterday. If you do the latter, make sure to **rollback** before trying to doing today's exercises. There is already a full set of migrations and seed data installed that we'll use to practice Objection (So you'll need to add your database creds to the .env and run `npm run migrate && npm run seed` again). Once you've set up your database, follow the steps below.
 
@@ -10,7 +10,7 @@ Our database has 3 tables: users, relations, and pets. Users has a has-many rela
 
 Now that you have the basic models set up, Objection knows exactly how your database is structured. Let's practice writing some queries! Under `src/exercises` is a bunch of exercises to practice syntax for writing database queries. In each file you'll find some comments with directions. Complete exercises 00-07 to fetch some data from the database, and then `console.log` your results. To test your implementation type `node src/exercises/<EXERCISE>.js`, e.g. `node src/exercises/00_select.js`. If you're running low on time, make sure you get around to exercise 7: Joins!
 
-# Day 6 PM: Advanced ORM Usage
+# Day 7 PM: Advanced ORM Usage
 
 Let's expand on our usage of Objection and add onto our models.
 
