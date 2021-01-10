@@ -1,11 +1,11 @@
-# Day 5 AM: Planning the Database Schema
+# Day 6 AM: Planning the Database Schema
 
 Let's make a Mini FaceBook app! Before we start building the database, however, we need to come up with a schema--or an outline for how it should look. Our database should contain at least 3 tables: users, posts, and friends. The users table should contain personal data pertaining to a particular user, such as first & last name, date of birth, password, a short bio, etc. The posts table (we'll just do text-only posts for now) should store a string of text, a date posted, and the number of likes. The friends table tracks data pertaining to an individual "friendship"--this means it should store the user ID of the "requestor" and "requested", a date requested, a status (whether it has been accepted/declined/requested), and anything else you want associated with a friendship.
 
 The task: Under Design.md, explain and outline how your relational database will work. List the tables, their associated columns, and the data type that will be stored in each column (string, number, boolean, enum, date, etc.). Feel free to add onto what is given above. It might be helpful to get some paper to draw tables and arrows representing connections between data.
 
 
-# Day 5 PM: Building & Seeding the Database
+# Day 6 PM: Building & Seeding the Database
 
 Now that we've planned out the structure of our database, let's build it! To allow us to see our database in real time, download [Postico](https://eggerapps.at/postico/) if you're on MacOS and [DBeaver](https://dbeaver.io) otherwise. Next, we need to actually create a Database. We'll host our database in cloud with ElephantSQL:
 
